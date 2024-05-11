@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Steppin</string>
+    <string name="button_text">Нажми меня</string>
+    <string name="second_activity_text">Вторая активность</string>
+    <string name="welcome_message">Добро пожаловать!</string>
+    <string name="login">Войти</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="username_hint">Имя пользователя</string>
+    <string name="email_hint">Электронная почта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="adress_hint">Adress</string>
+    <string name="price">Цена :</string>
+    <string name="size">Размер :</string>
+    <string name="name">Модель :</string>
+    <string name="brand">Бренд :</string>
+    <string name="color">Расцветка :</string>
+
+</resources>

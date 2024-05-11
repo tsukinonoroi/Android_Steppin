@@ -1,0 +1,102 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="73dp">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="161dp"
+        android:layout_height="140dp"
+        android:src="@drawable/sample_user_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/my_font_7"
+        android:text="Name"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewIcon" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="140dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="68dp"
+        android:hint="Enter Name"
+        app:layout_constraintBottom_toBottomOf="@id/textViewName"
+        app:layout_constraintStart_toEndOf="@id/textViewName"
+        app:layout_constraintTop_toTopOf="@id/textViewName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/my_font_7"
+        android:text="Email"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="167dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="76dp"
+        android:hint="Enter Email"
+        app:layout_constraintBottom_toBottomOf="@id/textViewEmail"
+        app:layout_constraintStart_toEndOf="@id/textViewEmail"
+        app:layout_constraintTop_toTopOf="@id/textViewEmail"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/my_font_7"
+        android:text="Password"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmail" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:hint="Enter Password"
+        app:layout_constraintBottom_toBottomOf="@id/textViewPassword"
+        app:layout_constraintStart_toEndOf="@id/textViewPassword"
+        app:layout_constraintTop_toTopOf="@id/textViewPassword"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

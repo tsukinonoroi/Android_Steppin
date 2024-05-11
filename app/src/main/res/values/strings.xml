@@ -1,0 +1,18 @@
+<resources>
+    <string name="button_text">Click!</string>
+    <string name="second_activity_text">Second Acitivity</string>
+    <string name="app_name">Steppin</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="login">Login</string>
+    <string name="registration">Sign up</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="adress_hint">Adress</string>
+    <string name="price">Price :</string>
+    <string name="size">Size :</string>
+    <string name="name">Model :</string>
+    <string name="brand">Brand :</string>
+    <string name="color">Color :</string>
+
+</resources>

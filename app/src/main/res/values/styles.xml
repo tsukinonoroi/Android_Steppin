@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorButtonTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/rounded_button_background</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="TextViewStyleLogo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="NightAppTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/colorBackgroundDark</item>
+        <item name="android:button">@style/ButtonStyleNight</item>
+    </style>
+
+    <style name="ButtonStyleNight" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/NightTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/rounded_button_background_light</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+</resources>
